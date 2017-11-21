@@ -3,6 +3,7 @@
 #include "stdafx.h"
 #include <string>
 #include <ostream>
+#include <iostream>
 
 using namespace std;
 
@@ -10,6 +11,7 @@ class Child {
 public:
 	Child(string name);
 	Child(const Child& other);
+	~Child();
 
 private:
 	string name;
