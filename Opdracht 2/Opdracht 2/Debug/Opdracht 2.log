@@ -1,0 +1,11 @@
+﻿  Opdracht2.cpp
+d:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\algorithm(105): warning C4244: 'argument': conversion from 'const double' to 'int', possible loss of data
+  d:\users\jelle dekkers\documents\school\hku\jaar 2\heobpa\opdracht 2\opdracht 2\opdracht2.cpp(169): note: see reference to function template instantiation '_Fn std::for_each<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,printSum::<lambda_2c9a5c4ac53770c0741adf008dd0da5e>>(_InIt,_InIt,_Fn)' being compiled
+          with
+          [
+              _Fn=printSum::<lambda_2c9a5c4ac53770c0741adf008dd0da5e>,
+              _Ty=double,
+              _InIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>
+          ]
+  Opdracht 2.vcxproj -> D:\Users\Jelle Dekkers\Documents\School\HKU\Jaar 2\HEOBPA\Opdracht 2\Debug\Opdracht 2.exe
+  Opdracht 2.vcxproj -> D:\Users\Jelle Dekkers\Documents\School\HKU\Jaar 2\HEOBPA\Opdracht 2\Debug\Opdracht 2.pdb (Partial PDB)
