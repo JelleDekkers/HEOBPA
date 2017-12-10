@@ -41,3 +41,14 @@ ostream& operator<<(ostream& os, const Parent& parent) {
 	os << "name: " << parent.name << " child: " << *parent.child;
 	return os;
 }
+
+// move-constructor
+Parent::Parent(Parent&& other) noexcept {
+	cout << "move constructor for " << other.name << endl;
+	name = std::move(other.name);
+	child = std::move(other.child);
+
+	// 'reset' 't originele object
+	other.name = "";
+	other.child = nullptr;
+}

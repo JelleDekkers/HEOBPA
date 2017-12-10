@@ -6,7 +6,6 @@
 using namespace std;
 
 int main() {
-
 	//Parent* p1 = new Parent("Parent1");
 	shared_ptr<Parent> p1 = shared_ptr<Parent>(new Parent("Parent1"));
 	cout << "P1:" << *p1 << endl;
@@ -27,6 +26,8 @@ int main() {
 
 	p3 = p1; // roept de assignment operator aan
 	cout << "P3:" << *p3 << endl;
+
+	Parent p4 = move(*p3); // roept move constructor aan
 
 	cout << "p1 references: " << p1.use_count() << endl;
 

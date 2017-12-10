@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Opdracht3_2", "Opdracht3_2\Opdracht3_2.vcxproj", "{8BB11B0A-B577-4098-B421-27292DE47527}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{08A06792-BE46-487E-83F4-A2B226B5BA81}"
+	ProjectSection(SolutionItems) = preProject
+		Opdracht3_2\Child.cpp = Opdracht3_2\Child.cpp
+		Opdracht3_2\Child.h = Opdracht3_2\Child.h
+		Opdracht3_2\Parent.cpp = Opdracht3_2\Parent.cpp
+		Opdracht3_2\Parent.h = Opdracht3_2\Parent.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BB11B0A-B577-4098-B421-27292DE47527}.Debug|x64.ActiveCfg = Debug|x64
+		{8BB11B0A-B577-4098-B421-27292DE47527}.Debug|x64.Build.0 = Debug|x64
+		{8BB11B0A-B577-4098-B421-27292DE47527}.Debug|x86.ActiveCfg = Debug|Win32
+		{8BB11B0A-B577-4098-B421-27292DE47527}.Debug|x86.Build.0 = Debug|Win32
+		{8BB11B0A-B577-4098-B421-27292DE47527}.Release|x64.ActiveCfg = Release|x64
+		{8BB11B0A-B577-4098-B421-27292DE47527}.Release|x64.Build.0 = Release|x64
+		{8BB11B0A-B577-4098-B421-27292DE47527}.Release|x86.ActiveCfg = Release|Win32
+		{8BB11B0A-B577-4098-B421-27292DE47527}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6FFCCBF-98EF-4506-8727-CCDA9EC138FA}
+	EndGlobalSection
+EndGlobal

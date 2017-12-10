@@ -1,0 +1,3 @@
+﻿  Block.cpp
+Opdracht3.obj : error LNK2019: unresolved external symbol "public: class Block & __thiscall Block::operator=(class Block &&)" (??4Block@@QAEAAV0@$$QAV0@@Z) referenced in function _main
+D:\Users\Jelle Dekkers\Documents\School\HKU\Jaar 2\HEOBPA\Opdracht 3\Opdracht 3\Debug\Opdracht 3.exe : fatal error LNK1120: 1 unresolved externals
